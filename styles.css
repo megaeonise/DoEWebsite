@@ -1,3 +1,19 @@
+a:link {
+    color:cyan
+}
+
+a:visited {
+    color:darkcyan
+}
+
+a:hover {
+    color:red
+}
+
+a:active {
+    color:rebeccapurple;
+    font-size: xx-large;
+}
 
 body {
     color: cyan;background-color:black;
