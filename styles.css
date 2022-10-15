@@ -1,3 +1,17 @@
+.flex-container{
+    background-color: black;
+}
+
+.flex-container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 20px;
+  }
+
 a:link {
     color:cyan
 }
