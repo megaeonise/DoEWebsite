@@ -1,15 +1,57 @@
 .flex-container{
-    background-color: black;
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
+.flex-box{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.tahmid-box{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+  text-align: center;
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-box {
+    flex-direction: column;
+  }
+  .tahmid-box {
+    flex-direction: column;
+  }
+}
 .flex-container > div{
-    display: flex;
     flex-direction: row;
     justify-content: top;
     align-items: top;
-    background-color: lightcoral;
+    background-color: #9d937d;
     padding: 20px;
     margin: 20px;
+  }
+
+.flex-box > div{
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+  }
+
+.tahmid-box > div{
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
   }
 
 a:link {
