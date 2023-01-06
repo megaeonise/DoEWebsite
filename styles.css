@@ -11,7 +11,6 @@
 }
 
 .tahmid-box{
-  background-color: black;
   display: flex;
   justify-content: center;
 }
@@ -27,6 +26,11 @@
     flex-direction: column;
   }
 }
+
+.text_center {
+  text-align: center;
+}
+
 .flex-container > div{
     flex-direction: row;
     justify-content: top;
